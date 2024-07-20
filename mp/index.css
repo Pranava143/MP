@@ -1,0 +1,80 @@
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    padding: 1rem;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    margin-left: 1rem;
+}
+
+.navbar-brand img {
+    height: 50px;
+}
+
+.bg-container {
+    background: url('../Img/background.jpg') no-repeat center center/cover; /* Update the path as needed */
+    width: 100%;
+    height: 100vh;
+}
+
+.card-container {
+    max-width: 800px;
+    width: 100%;
+    margin: 20px;
+}
+
+.card {
+    border: none;
+}
+
+.main-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.para {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.para2 {
+    font-size: 1rem;
+    color: #777;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .main-heading {
+        font-size: 2rem;
+    }
+
+    .para, .para2 {
+        font-size: 1rem;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 1rem;
+        margin-left: 0;
+    }
+}
